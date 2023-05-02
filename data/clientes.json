@@ -1,0 +1,100 @@
+{
+    "clientes": [
+      {
+        "nombre": "Juan",
+        "apellido": "Pérez",
+        "email": "juanperez@gmail.com",
+        "telefono": "555-1234"
+      },
+      {
+        "nombre": "María",
+        "apellido": "García",
+        "email": "mariagarcia@hotmail.com",
+        "telefono": "555-5678"
+      },
+      {
+        "nombre": "Pedro",
+        "apellido": "Hernández",
+        "email": "pedrohernandez@yahoo.com",
+        "telefono": "555-9012"
+      },
+      {
+        "nombre": "Ana",
+        "apellido": "Martínez",
+        "email": "anamartinez@gmail.com",
+        "telefono": "555-3456"
+      },
+      {
+        "nombre": "Luis",
+        "apellido": "González",
+        "email": "luisgonzalez@hotmail.com",
+        "telefono": "555-7890"
+      },
+      {
+        "nombre": "Carla",
+        "apellido": "Sánchez",
+        "email": "carlasanchez@gmail.com",
+        "telefono": "555-2345"
+      },
+      {
+        "nombre": "Javier",
+        "apellido": "Ramírez",
+        "email": "javierramirez@yahoo.com",
+        "telefono": "555-6789"
+      },
+      {
+        "nombre": "Gabriela",
+        "apellido": "Torres",
+        "email": "gabrielatorres@hotmail.com",
+        "telefono": "555-0123"
+      },
+      {
+        "nombre": "Andrés",
+        "apellido": "Fernández",
+        "email": "andresfernandez@gmail.com",
+        "telefono": "555-4567"
+      },
+      {
+        "nombre": "Laura",
+        "apellido": "Díaz",
+        "email": "lauradiaz@yahoo.com",
+        "telefono": "555-8901"
+      },
+      {
+        "nombre": "Miguel",
+        "apellido": "López",
+        "email": "miguellopez@gmail.com",
+        "telefono": "555-2345"
+      },
+      {
+        "nombre": "Adriana",
+        "apellido": "Guzmán",
+        "email": "adrianaguzman@hotmail.com",
+        "telefono": "555-6789"
+      },
+      {
+        "nombre": "Raúl",
+        "apellido": "Castillo",
+        "email": "raulcastillo@yahoo.com",
+        "telefono": "555-0123"
+      },
+      {
+        "nombre": "Sofía",
+        "apellido": "Gutiérrez",
+        "email": "sofiagutierrez@gmail.com",
+        "telefono": "555-4567"
+      },
+      {
+        "nombre": "Jorge",
+        "apellido": "Ruiz",
+        "email": "jorgeruiz@hotmail.com",
+        "telefono": "555-8901"
+      },
+      {
+        "nombre": "Elena",
+        "apellido": "Ortega",
+        "email": "elenaortega@gmail.com",
+        "telefono": "555-2345"
+      }
+    ]
+}

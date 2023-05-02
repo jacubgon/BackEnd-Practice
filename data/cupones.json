@@ -1,0 +1,149 @@
+{
+    "cupones": [
+      {
+        "descripcion": "Cerveza gratis con tu comida",
+        "restaurante": "La Pizzeria",
+        "disponible": true
+      },
+      {
+        "descripcion": "10% de descuento en tu cuenta",
+        "restaurante": "La Pizzeria",
+        "disponible": true
+      },
+      {
+        "descripcion": "Pizza gratis con tu comida",
+        "restaurante": "La Pizzeria",
+        "disponible": true
+      },
+      {
+        "descripcion": "2x1 en bebidas",
+        "restaurante": "El Asador",
+        "disponible": true
+      },
+      {
+        "descripcion": "10% de descuento en carnes",
+        "restaurante": "El Asador",
+        "disponible": true
+      },
+      {
+        "descripcion": "Postre gratis con tu comida",
+        "restaurante": "El Asador",
+        "disponible": true
+      },
+      {
+        "descripcion": "Descuento de $50 en tu cuenta",
+        "restaurante": "Sushi House",
+        "disponible": true
+      },
+      {
+        "descripcion": "Rollos gratis con tu comida",
+        "restaurante": "Sushi House",
+        "disponible": true
+      },
+      {
+        "descripcion": "2x1 en bebidas",
+        "restaurante": "Sushi House",
+        "disponible": true
+      },
+      {
+        "descripcion": "10% de descuento en tu cuenta",
+        "restaurante": "El Taquero",
+        "disponible": true
+      },
+      {
+        "descripcion": "Taco gratis con tu comida",
+        "restaurante": "El Taquero",
+        "disponible": true
+      },
+      {
+        "descripcion": "2x1 en margaritas",
+        "restaurante": "El Taquero",
+        "disponible": true
+      },
+      {
+        "descripcion": "Cerveza gratis con tu comida",
+        "restaurante": "La Trattoria",
+        "disponible": true
+      },
+      {
+        "descripcion": "10% de descuento en pastas",
+        "restaurante": "La Trattoria",
+        "disponible": true
+      },
+      {
+        "descripcion": "Postre gratis con tu comida",
+        "restaurante": "La Trattoria",
+        "disponible": true
+      },
+      {
+        "descripcion": "2x1 en bebidas",
+        "restaurante": "El Rincón Peruano",
+        "disponible": true
+      },
+      {
+        "descripcion": "10% de descuento en ceviche",
+        "restaurante": "El Rincón Peruano",
+        "disponible": true
+      },
+      {
+        "descripcion": "Postre gratis con tu comida",
+        "restaurante": "El Rincón Peruano",
+        "disponible": true
+      },
+      {
+        "descripcion": "Cerveza gratis con tu comida",
+        "restaurante": "La Taquería de la Esquina",
+        "disponible": true
+      },
+      {
+        "descripcion": "Postre gratis con tu comida",
+        "restaurante": "La Taquería de la Esquina",
+        "disponible": true
+      },
+      {
+        "descripcion": "2x1 en bebidas",
+        "restaurante": "La Casa del Café",
+        "disponible": true
+      },
+      {
+        "descripcion": "10% de descuento en desayunos",
+        "restaurante": "La Casa del Café",
+        "disponible": true
+      },
+      {
+        "descripcion": "Pastel gratis con tu comida",
+        "restaurante": "La Casa del Café",
+        "disponible": true
+      },
+      {
+        "descripcion": "Cerveza gratis con tu comida",
+        "restaurante": "La Cervecería",
+        "disponible": true
+      },
+      {
+        "descripcion": "10% de descuento en cervezas artesanales",
+        "restaurante": "La Cervecería",
+        "disponible": true
+      },
+      {
+        "descripcion": "Tabla de quesos gratis con tu compra",
+        "restaurante": "La Cervecería",
+        "disponible": true
+      },
+      {
+        "descripcion": "2x1 en bebidas",
+        "restaurante": "La Cantina",
+        "disponible": true
+      },
+      {
+        "descripcion": "10% de descuento en comida mexicana",
+        "restaurante": "La Cantina",
+        "disponible": true
+      },
+      {
+        "descripcion": "Postre gratis con tu comida",
+        "restaurante": "La Cantina",
+        "disponible": true
+      }
+    ]
+}

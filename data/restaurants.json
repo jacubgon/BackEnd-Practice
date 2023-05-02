@@ -1,0 +1,70 @@
+{
+  "restaurantes": [
+    {
+      "nombre": "La Pizzeria",
+      "tipo_cocina": "Italiana",
+      "direccion": "Calle 1, #123, Colonia Centro, Ciudad de México",
+      "capacidad": 50
+    },
+    {
+      "nombre": "El Asador",
+      "tipo_cocina": "Carnes",
+      "direccion": "Avenida 2, #456, Colonia Condesa, Ciudad de México",
+      "capacidad": 80
+    },
+    {
+      "nombre": "Sushi House",
+      "tipo_cocina": "Japonesa",
+      "direccion": "Calle 3, #789, Colonia Roma, Ciudad de México",
+      "capacidad": 30
+    },
+    {
+      "nombre": "El Taquero",
+      "tipo_cocina": "Mexicana",
+      "direccion": "Avenida 4, #1011, Colonia Del Valle, Ciudad de México",
+      "capacidad": 100
+    },
+    {
+      "nombre": "La Trattoria",
+      "tipo_cocina": "Italiana",
+      "direccion": "Calle 5, #234, Colonia Narvarte, Ciudad de México",
+      "capacidad": 60
+    },
+    {
+      "nombre": "El Rincón Peruano",
+      "tipo_cocina": "Peruana",
+      "direccion": "Avenida 6, #567, Colonia Polanco, Ciudad de México",
+      "capacidad": 40
+    },
+    {
+      "nombre": "La Taquería de la Esquina",
+      "tipo_cocina": "Mexicana",
+      "direccion": "Calle 7, #890, Colonia Anzures, Ciudad de México",
+      "capacidad": 70
+    },
+    {
+      "nombre": "Café Paris",
+      "tipo_cocina": "Francesa",
+      "direccion": "Avenida 8, #1213, Colonia Santa Fe, Ciudad de México",
+      "capacidad": 50
+    },
+    {
+      "nombre": "El Sabor del Mar",
+      "tipo_cocina": "Mariscos",
+      "direccion": "Calle 9, #1415, Colonia San Ángel, Ciudad de México",
+      "capacidad": 30
+    },
+    {
+      "nombre": "El Templo del Té",
+      "tipo_cocina": "Té y postres",
+      "direccion": "Avenida 10, #1617, Colonia Cuauhtémoc, Ciudad de México",
+      "capacidad": 20
+    },
+    {
+      "nombre": "La Cevichería",
+      "tipo_cocina": "Peruana",
+      "direccion": "Calle 11, #1819, Colonia Juárez, Ciudad de México",
+      "capacidad": 40
+    }
+  ]
+}
