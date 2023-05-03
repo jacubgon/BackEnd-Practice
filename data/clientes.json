@@ -9,7 +9,6 @@
         "sexo": "Masculino"
     },
     {
-        "_id": 2,
         "nombre": "Maria",
         "apellido": "Garcia",
         "email": "mariagarcia@hotmail.com",
@@ -18,7 +17,6 @@
         "sexo": "Femenino"
     },
     {
-      "_id": 2,
         "nombre": "Pedro",
         "apellido": "Hernández",
         "email": "pedrohernandez@yahoo.com",
