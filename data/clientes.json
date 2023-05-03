@@ -1,6 +1,7 @@
 {
     "clientes": [
-      {
+      { 
+        "_id": 1,
         "nombre": "Juan",
         "apellido": "Pérez",
         "email": "juanperez@gmail.com",
@@ -9,14 +10,16 @@
         "sexo": "Masculino"
     },
     {
-        "nombre": "María",
-        "apellido": "García",
+        "_id": 2,
+        "nombre": "Maria",
+        "apellido": "Garcia",
         "email": "mariagarcia@hotmail.com",
         "telefono": "555-5678",
         "edad": 28,
         "sexo": "Femenino"
     },
     {
+      "_id": 2,
         "nombre": "Pedro",
         "apellido": "Hernández",
         "email": "pedrohernandez@yahoo.com",
@@ -26,7 +29,7 @@
     },
     {
         "nombre": "Ana",
-        "apellido": "Martínez",
+        "apellido": "Martinez",
         "email": "anamartinez@gmail.com",
         "telefono": "555-3456",
         "edad": 31,
@@ -34,7 +37,7 @@
     },
     {
         "nombre": "Luis",
-        "apellido": "González",
+        "apellido": "Gonzalez",
         "email": "luisgonzalez@hotmail.com",
         "telefono": "555-7890",
         "edad": 27,
@@ -50,7 +53,7 @@
     },
     {
         "nombre": "Javier",
-        "apellido": "Ramírez",
+        "apellido": "Ramirez",
         "email": "javierramirez@yahoo.com",
         "telefono": "555-6789",
         "edad": 36,
@@ -104,8 +107,24 @@
       },
       {
         "nombre": "Sofía",
-        "apellido": "Gutiérrez",
+        "apellido": "Gutierrez",
         "email": "sofiagutierrez@gmail.com",
+        "telefono": "555-4567",
+        "edad": 36,
+        "sexo": "Femenino"
+      },
+      {
+        "nombre": "Laura",
+        "apellido": "Diaz",
+        "email": "lauradiaz@gmail.com",
+        "telefono": "555-4567",
+        "edad": 36,
+        "sexo": "Femenino"
+      },
+      {
+        "nombre": "Julia",
+        "apellido": "Fernandez",
+        "email": "juliafernandez@gmail.com",
         "telefono": "555-4567",
         "edad": 36,
         "sexo": "Femenino"
@@ -116,6 +135,22 @@
         "email": "jorgeruiz@hotmail.com",
         "telefono": "555-8901",
         "edad": 19,
+        "sexo": "Masculino"
+      },
+      {
+        "nombre": "Fernando",
+        "apellido": "Torres",
+        "email": "fernandotorres@hotmail.com",
+        "telefono": "555-7902",
+        "edad": 32,
+        "sexo": "Masculino"
+      },
+       {
+        "nombre": "Roberto",
+        "apellido": "Hernandez",
+        "email": "robertohernandez@hotmail.com",
+        "telefono": "555-7902",
+        "edad": 32,
         "sexo": "Masculino"
       },
       {

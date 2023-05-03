@@ -1,0 +1,85 @@
+{
+    "clientes": [
+
+  {
+    "numero_reserva": "1",
+    "cliente": "Juan Perez",
+    "restaurante": "La Trattoria",
+    "num_personas": 2,
+    "fecha": "2023-05-05",
+    "hora": "18:30"  
+},
+   {
+    "numero_reserva": "2",
+    "cliente": "Maria Garcia",
+    "restaurante": "El Meson",
+    "num_personas": 4,
+    "fecha": "2023-05-07",
+    "hora": "20:00"  
+},
+    {
+    "numero_reserva": "3",
+    "cliente": "Ana Martinez",
+    "restaurante": "La Parrilla",
+    "num_personas": 6,
+    "fecha": "2023-05-10",
+    "hora": "19:00"  
+},
+    {
+    "numero_reserva": "4",
+    "cliente": "Luis Gonzalez",
+    "restaurante": "El Sabor",
+    "num_personas": 3,
+    "fecha": "2023-05-12",
+    "hora": "21:30"  
+},
+    {
+    "numero_reserva": "5",
+    "cliente": "Javier Ramirez",
+    "restaurante": "La Cabaña",    
+    "num_personas": 2,
+    "fecha": "2023-05-15",
+    "hora": "18:00"  
+    },                                                                                 
+    {    
+    "numero_reserva": "6",
+    "cliente": "Sofia Gutierrez",
+    "restaurante": "La Terraza",
+    "num_personas": 5,
+    "fecha": "2023-05-17",
+    "hora": "20:30"  
+    },  
+    {
+    "numero_reserva": "7",
+    "cliente": "Fernando Torres",
+    "restaurante": "El Jardín",  
+    "num_personas": 8,
+    "fecha": "2023-05-20",
+    "hora": "19:00"  
+    },
+    {
+    "numero_reserva": "8",
+    "cliente": "Laura Diaz",
+    "restaurante": "La Playa",
+    "num_personas": 2,
+    "fecha": "2023-05-23",
+    "hora": "17:30"  
+    },
+    { 
+   "numero_reserva": "9",
+    "cliente": "Roberto Hernandez",
+    "restaurante": "El Rincón",
+    "num_personas": 4,
+    "fecha": "2023-05-26",
+    "hora": "20:00"  
+    },
+    {
+    "numero_reserva": "10",
+    "cliente": "Julia Fernandez",
+    "restaurante": "La Fuente",
+    "num_personas": 3,
+    "fecha": "2023-05-29",
+    "hora": "21:00"  
+    }
+]}
+
