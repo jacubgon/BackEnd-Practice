@@ -18,6 +18,16 @@ app.use(cors())
 app.use(morgan('dev'))
 app.use(express.json())
 
+import clientes from './routes/clientes.js'
+// import restaurantes from './routes/restaurantes.js'
+// import cupones from './routes/cupones.js'
+// import reservas from './routes/reservas.js'
+
+app.use('/clientes', clientes)
+// app.use('/api/restaurantes', restaurantes)
+// app.use('/api/cupones',cupones)
+// app.use('/api/reservas',reservas)
+
 app.get('/ping', async (req, res) => {
     try {
       

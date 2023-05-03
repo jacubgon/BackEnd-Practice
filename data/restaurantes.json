@@ -1,5 +1,4 @@
-{
-  "restaurantes": [
+[
     {
       "nombre": "La Pizzeria",
       "tipo_cocina": "Italiana",
@@ -67,4 +66,4 @@
       "capacidad": 40
     }
   ]
-}
+

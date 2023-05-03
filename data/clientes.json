@@ -1,12 +1,11 @@
-{
-    "clientes": [
+ [
       { 
         "_id": 1,
         "nombre": "Juan",
         "apellido": "Pérez",
         "email": "juanperez@gmail.com",
         "telefono": "555-1234",
-        "edad": 35,
+        "edad": 36,
         "sexo": "Masculino"
     },
     {
@@ -162,4 +161,3 @@
         "sexo": "Femenino"
       }
     ]
-}

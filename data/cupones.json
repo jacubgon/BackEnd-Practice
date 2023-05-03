@@ -1,5 +1,4 @@
-{
-    "cupones": [
+ [
       {
         "descripcion": "Cerveza gratis con tu comida",
         "restaurante": "La Pizzeria",
@@ -146,4 +145,3 @@
         "disponible": true
       }
     ]
-}
