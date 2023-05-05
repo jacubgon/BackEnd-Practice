@@ -9,10 +9,9 @@ import cupones from "./routes/cupones.js";
 import reservas from "./routes/reservas.js";
 
 import Cliente from "./models/cliente.js";
-import Restaurante from './models/restaurante.js'
-import Cupon from './models/cupon.js'
-import Reserva from './models/reserva.js'
-
+import Restaurante from "./models/restaurante.js";
+import Cupon from "./models/cupon.js";
+import Reserva from "./models/reserva.js";
 
 //conecto con mongoDB
 // mongoose.connect("mongodb://localhost:27017/restaurantes");
@@ -43,53 +42,105 @@ app.use("/cupones", cupones);
 app.use("/api/reservas", reservas);
 
 app.get("/ping", async (req, res) => {
- res.json({pong:"true"})
+  res.json({ pong: "true" });
 });
 
+//CRUD CLIENTES
+
+// OBTENER TODOS LOS CLIENTES
 app.get("/clientes", async (req, res) => {
   try {
-    const allClientes = await Cliente.find({})
-  // console.log(result);
-  res.send(allClientes);
+    const allClientes = await Cliente.find({});
+    // console.log(result);
+    res.send(allClientes);
   } catch (err) {
     console.log(err);
     res.status(500).send("pronto volvemos");
   }
 });
 
-app.get("/restaurantes", async (req, res) => { try {
-  const allRestaurantes = await Restaurante.find({})
+//OBTENER UN CLIENTE POR ID
+app.post("/clientes", async (req, res) => {
+  try {
+    const clienteByID = await Cliente.findById({});
 
-res.send(allRestaurantes);
-} catch (err) {
-  console.log(err);
-  res.status(500).send("pronto volvemos");
-}
-
+    res.send(clienteByID);
+  } catch (err) {
+    console.log(err);
+    res.status(500).send("pronto volvemos");
+  }
 });
 
-app.get("/cupones", async (req, res) => { try {
-  const allCupones = await Cupon.find({})
+// CRUD RESTAURANTES
 
-res.send(allCupones);
-} catch (err) {
-  console.log(err);
-  res.status(500).send("pronto volvemos");
-}
+// OBTENER TODOS LOS RESTAURANTES
+app.get("/restaurantes", async (req, res) => {
+  try {
+    const allRestaurantes = await Restaurante.find({});
 
+    res.send(allRestaurantes);
+  } catch (err) {
+    console.log(err);
+    res.status(500).send("pronto volvemos");
+  }
 });
 
-app.get("/reservas", async (req, res) => { try {
-  const allReservas = await Reserva.find({})
+// CREAR NUEVO RESTAURANTE
+app.post("/restaurantes", async (req, res) => {
+  const newRestaurant = await Restaurante.create({
+    nombre: "El Asador de Dani Funes",
+    tipo_cocina: "Carnes",
+    direccion: "Calle Silos 29, Alcala de Guadaira",
+    capacidad: 80,
+  });
 
-res.send(allReservas);
-} catch (err) {
-  console.log(err);
-  res.status(500).send("pronto volvemos");
-}
-
+  res.send(newRestaurant);
 });
 
+// ACTUALIZAR RESTAURANTE
+app.put("/restaurantes", async (req, res) => {
+  const newRestaurant = await Restaurante.create({
+    nombre: "El Asador de Pollos de Dani Funes",
+  });
+
+  res.send(newRestaurant);
+});
+
+//CRUD CUPONES
+
+// OBTENER TODOS LOS CUPONES
+app.get("/cupones", async (req, res) => {
+  try {
+    const allCupones = await Cupon.find({});
+
+    res.send(allCupones);
+  } catch (err) {
+    console.log(err);
+    res.status(500).send("pronto volvemos");
+  }
+});
+
+//CRUD RESERVAS
+
+// OBTENER TODAS LAS RESERVAS
+app.get("/reservas", async (req, res) => {
+  try {
+    const allReservas = await Reserva.find({});
+
+    res.send(allReservas);
+  } catch (err) {
+    console.log(err);
+    res.status(500).send("pronto volvemos");
+  }
+});
+
+//OBTENER RESERVAS POR RESTAURANTE
+
+//OBTENER RESERVAS POR CLIENTE
+
+
+
+// PUERTOS EN ESCUCHA
 
 app.listen(port, () =>
   console.log("Servidor andando http://localhost:" + port)

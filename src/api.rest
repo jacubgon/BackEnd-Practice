@@ -1,0 +1,10 @@
+get("/restaurantes", async (req, res) => {
+  try {
+    const allRestaurantes = await Restaurante.find({});
+
+    res.send(allRestaurantes);
+  } catch (err) {
+    console.log(err);
+    res.status(500).send("pronto volvemos");
+  }
+});

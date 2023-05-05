@@ -5,6 +5,10 @@ const restauranteSchema = new mongoose.Schema({
     tipo_cocina: String,
     direccion: String,
     capacidad: Number,
+    clientes_interesados: [{
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'Cliente'
+      }]
 })
 
 const Restaurante = mongoose.model('Restaurante', restauranteSchema)
