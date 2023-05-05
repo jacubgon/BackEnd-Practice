@@ -1,0 +1,161 @@
+ [
+      { 
+       
+        "nombre": "Juan",
+        "apellido": "Pérez",
+        "email": "juanperez@gmail.com",
+        "telefono": "555-1234",
+        "edad": 36,
+        "sexo": "Masculino"
+    },
+    {
+        "nombre": "Maria",
+        "apellido": "Garcia",
+        "email": "mariagarcia@hotmail.com",
+        "telefono": "555-5678",
+        "edad": 28,
+        "sexo": "Femenino"
+    },
+    {
+        "nombre": "Pedro",
+        "apellido": "Hernández",
+        "email": "pedrohernandez@yahoo.com",
+        "telefono": "555-9012",
+        "edad": 42,
+        "sexo": "Masculino"
+    },
+    {
+        "nombre": "Ana",
+        "apellido": "Martinez",
+        "email": "anamartinez@gmail.com",
+        "telefono": "555-3456",
+        "edad": 31,
+        "sexo": "Femenino"
+    },
+    {
+        "nombre": "Luis",
+        "apellido": "Gonzalez",
+        "email": "luisgonzalez@hotmail.com",
+        "telefono": "555-7890",
+        "edad": 27,
+        "sexo": "Masculino"
+    },
+    {
+        "nombre": "Carla",
+        "apellido": "Sánchez",
+        "email": "carlasanchez@gmail.com",
+        "telefono": "555-2345",
+        "edad": 29,
+        "sexo": "Femenino"
+    },
+    {
+        "nombre": "Javier",
+        "apellido": "Ramirez",
+        "email": "javierramirez@yahoo.com",
+        "telefono": "555-6789",
+        "edad": 36,
+        "sexo": "Masculino"
+    },
+    {
+        "nombre": "Gabriela",
+        "apellido": "Torres",
+        "email": "gabrielatorres@hotmail.com",
+        "telefono": "555-0123",
+        "edad": 25,
+        "sexo": "Femenino"
+    },
+    {
+        "nombre": "Andrés",
+        "apellido": "Fernández",
+        "email": "andresfernandez@gmail.com",
+        "telefono": "555-4567",
+        "edad": 33,
+        "sexo": "Masculino"
+    },
+    {
+        "nombre": "Laura",
+        "apellido": "Díaz",
+        "email": "lauradiaz@yahoo.com",
+        "telefono": "555-8901",
+        "edad": 30,
+        "sexo": "Femenino"
+    },
+    {
+        "nombre": "Miguel",
+        "apellido": "López",
+        "email": "miguellopez@gmail.com",
+        "telefono": "555-2345",
+        "edad": 37,
+        "sexo": "Masculino"
+    },
+    {
+        "nombre": "Adriana",
+        "apellido": "Guzmán",
+        "email": "adrianaguzman@hotmail.com",
+        "telefono": "555-6789",
+        "edad": 26,
+        "sexo": "Femenino"
+    },
+      {
+        "nombre": "Raúl",
+        "apellido": "Castillo",
+        "email": "raulcastillo@yahoo.com",
+        "telefono": "555-0123"
+      },
+      {
+        "nombre": "Sofía",
+        "apellido": "Gutierrez",
+        "email": "sofiagutierrez@gmail.com",
+        "telefono": "555-4567",
+        "edad": 36,
+        "sexo": "Femenino"
+      },
+      {
+        "nombre": "Laura",
+        "apellido": "Diaz",
+        "email": "lauradiaz@gmail.com",
+        "telefono": "555-4567",
+        "edad": 36,
+        "sexo": "Femenino"
+      },
+      {
+        "nombre": "Julia",
+        "apellido": "Fernandez",
+        "email": "juliafernandez@gmail.com",
+        "telefono": "555-4567",
+        "edad": 36,
+        "sexo": "Femenino"
+      },
+      {
+        "nombre": "Jorge",
+        "apellido": "Ruiz",
+        "email": "jorgeruiz@hotmail.com",
+        "telefono": "555-8901",
+        "edad": 19,
+        "sexo": "Masculino"
+      },
+      {
+        "nombre": "Fernando",
+        "apellido": "Torres",
+        "email": "fernandotorres@hotmail.com",
+        "telefono": "555-7902",
+        "edad": 32,
+        "sexo": "Masculino"
+      },
+       {
+        "nombre": "Roberto",
+        "apellido": "Hernandez",
+        "email": "robertohernandez@hotmail.com",
+        "telefono": "555-7902",
+        "edad": 32,
+        "sexo": "Masculino"
+      },
+      {
+        "nombre": "Elena",
+        "apellido": "Ortega",
+        "email": "elenaortega@gmail.com",
+        "telefono": "555-2345",
+        "edad": 39,
+        "sexo": "Femenino"
+      }
+    ]
