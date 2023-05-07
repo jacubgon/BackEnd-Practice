@@ -1,0 +1,21 @@
+
+@hostname = http://localhost
+@port = 5000
+@host = {{hostname}}:{{port}}
+
+### GET ALL RESTAURANTS
+
+GET {{host}}/api/reservas
+
+### NEW RESERVA
+POST {{host}}/api/reservas
+Content-Type: application/json
+
+ {
+    "numero_reserva": "26",
+    "cliente": "Maria Garcia",
+    "restaurante": "El Taquero",
+    "num_personas": 4,
+    "fecha": "2023-05-07",
+    "hora": "20:00"  
+}
