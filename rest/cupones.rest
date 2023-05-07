@@ -1,0 +1,39 @@
+
+@hostname = http://localhost
+@port = 5000
+@host = {{hostname}}:{{port}}
+
+### IBTENER TODOS LOS CUPONES
+
+GET {{host}}/api/cupones
+
+### CREAR UN NUEVO CUPON
+
+POST {{host}}/api/cupones/
+Content-Type: application/json
+
+{
+  
+    "descripcion": "Taco Vegano gratis con tu comida",
+    "restaurante": "La Taquería de la Esquina",
+    "disponible": true
+}
+
+### OBTENER UN CUPON POR ID
+GET {{host}}/api/cupones/64566a805e8cc5426adbead9
+
+
+### BORRAR UN CUPON POR ID
+DELETE {{host}}/api/cupones/64566a805e8cc5426adbead9
+
+### CONSUMIR
+
+PUT {{host}}/api/cupones/6457e9dce341ac2c564e3b08
+Content-Type: application/json
+
+{
+  
+    "descripcion": "Fajita gratis con tu comida",
+    "restaurante": "La Taquería de la Esquina",
+    "disponible": false
+}

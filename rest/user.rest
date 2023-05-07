@@ -1,0 +1,42 @@
+
+
+### TODOS LOS USUARIOS
+GET http://localhost:5000/users/
+
+
+###
+
+### USUARIO POR ID
+GET http://localhost:5000/users/64568095126a342b95fa7b69
+
+
+###
+POST http://localhost:5000/users/signup
+Content-Type: application/json
+
+{
+  "name": "Antonio Perez",
+  "username": "antonio@antonio",
+  "password": "antonio1"
+}
+
+
+###
+
+POST http://localhost:5000/users/login
+Content-Type: application/json
+
+{
+  "username": "benjy@benjy",
+  "password": "benjy1"
+}
+
+
+###
+POST http://localhost:5000/users/signin
+Content-Type: application/json
+
+{
+ "username": "antonio@antonio",
+  "password": "antonio1"
+}

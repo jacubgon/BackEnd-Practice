@@ -1,0 +1,31 @@
+
+@hostname = http://localhost
+@port = 5000
+@host = {{hostname}}:{{port}}
+
+### GET ALL RESTAURANTS
+
+GET {{host}}/api/restaurantes
+
+### CREATE A NEW RESTAURANT
+
+POST {{host}}/api/restaurantes/
+Content-Type: application/json
+
+{
+        "numero_reserva": "26",
+        "cliente": "Javier Cubero",
+        "restaurante": "El Taquero",
+        "num_personas": 20,
+        "fecha": "2023-05-07",
+        "hora": "20:00"  
+    }
+
+
+### DELETE RESTAURANT BY ID
+DELETE {{host}}/api/restaurantes/6456603aff253ce7c2fd8af1
+
+
+
+
+
